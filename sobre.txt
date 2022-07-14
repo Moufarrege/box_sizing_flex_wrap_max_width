@@ -1,0 +1,17 @@
+fala sobre:
+
+display:flex => de todos os componentes ficarem um em cima do outro, com display:flex ficam 
+              um ao lado do outro.
+
+flex-wrap:wrap => quebra linha, bom para responsividade
+
+max-width:960px => vão ficar 3 caixas por linha, pq cada caixa possui de width:280+20 de um lado 
+		+20 de outro lado, que dá 320 x3(por ser 3 caixas daria 960px. Então fica 3 caixa 
+		por linha, por ser max-width: de 960px.
+
+
+.block:hover{border:2px solid red:
+		width:276px} => vai aumentar 4px de width, isso fará quebrar a linha, ja que  o max-width
+				é de 960px, um dos jeito é diminuir o width do .block para 760px, mas um 
+				jeito mais facil seria no .block colocar box-sizing:border-box;, melhor 
+				ainda é colocar no começo do css na parte *{}, colocar o box-sizing:border-box 
